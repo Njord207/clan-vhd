@@ -1,0 +1,20 @@
+h1, h3, h4 {
+	color: red;
+}
+
+span {
+	color: yellow;
+	font-weight: bold;
+}
+
+b {
+	color: white;
+}
+
+p {
+	color:red;
+}
+
+strong {
+	color:white;
+}

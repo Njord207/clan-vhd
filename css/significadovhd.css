@@ -1,0 +1,217 @@
+/* -- Header -- */
+
+body {
+    text= white;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.jumbotron {
+    background: #17202A;
+    color:red;
+    padding:0px 0;
+}
+
+.titulo-blog {
+    text-indent: 1em;
+    text-align: center;
+}
+
+.espacio1 {
+    text-indent: 1em;
+    text-align: center;
+}
+
+/* -- POST -- */
+.main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.post .post-title a {
+    color: #333;
+}
+
+.post .thumb {
+    margin-right:10px;
+    width:40%;
+
+}
+
+.post .thumb img {
+    width:40%;
+}
+
+.post .contenedor-botones {
+    width: 100%;
+}
+
+/* -- Media Querie -- */
+@media screen and (max-width: 768) {
+    .post -thumb {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
+/* -----------------------------------------SLIDERS-------------------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: arial;
+    color: aqua;
+    text-shadow: 0px 0px 6px black;
+}
+
+.content-all{
+    width: 210px;
+    margin: auto;
+    perspective: 800px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.content-carrousel{
+    width: 100%;
+    position: absolute;
+    animation: rotar 10s infinite linear;
+    transform-style: preserve-3d;
+}
+
+.content-carrousel:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+
+.content-carrousel figure{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px black;
+    transition: all 300ms;
+    
+}
+
+.content-carrousel figure:hover{
+    box-shadow: 0px 0px 0px 0px black;
+    transition: all 300ms;
+}
+
+.content-carrousel figure:nth-child(1){transform: rotateY(0deg) translateZ(300px);}
+.content-carrousel figure:nth-child(2){transform: rotateY(40deg) translateZ(300px);}
+.content-carrousel figure:nth-child(3){transform: rotateY(80deg) translateZ(300px);}
+.content-carrousel figure:nth-child(4){transform: rotateY(120deg) translateZ(300px);}
+.content-carrousel figure:nth-child(5){transform: rotateY(160deg) translateZ(300px);}
+.content-carrousel figure:nth-child(6){transform: rotateY(200deg) translateZ(300px);}
+.content-carrousel figure:nth-child(7){transform: rotateY(240deg) translateZ(300px);}
+.content-carrousel figure:nth-child(8){transform: rotateY(280deg) translateZ(300px);}
+.content-carrousel figure:nth-child(9){transform: rotateY(320deg) translateZ(300px);}
+.content-carrousel figure:nth-child(10){transform: rotateY(360deg) translateZ(300px);}
+
+
+.content-carrousel img{
+    width: 100%;
+    transition: all 300ms;
+}
+
+.content-carrousel img:hover{
+    transform: scale(1.2);
+    transition: all 300ms;
+}
+
+
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+}
+
+
+/* -----------------------------------------SLIDERS-------------------------------------------------- */
+
+
+
+
+p {
+    color:white;
+}
+
+h1 {
+    color: aqua;
+    /* text-indent: 300px;*/
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+h4 {
+    background-color: rgba(0, 0, 0, 0.637);
+    color: Aqua;
+}
+
+b {
+    color:rgb(255, 0, 0);
+}
+span {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+
+.list-group-item {
+    background-color: #000000e8;
+
+    color: #FF0000;
+
+    width:80%;
+}
+
+
+h5 {
+    color: white;
+}
+strong {
+    color: aqua;
+}
+
+img {
+    width: 60%;
+}
+
+div.content {
+    width: 500px;
+    margin: 0 auto 0 auto;
+    padding: 3px;
+    background-color: #000000;
+    color: rgb(50, 113, 185);
+    }
+    div.content img { max-width: 50%; }
+
+th, td {
+    border: solid 3px aqua;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(221, 221, 221, 0.096)
+}
+.blanco {
+    color: white;
+}
