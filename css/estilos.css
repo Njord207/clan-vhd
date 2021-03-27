@@ -163,7 +163,7 @@ h3 {
 }
 
 h4 {
-    background-color: rgba(0, 0, 0, 0.637);
+    background-color: rgba(0, 0, 0, 0.411);
     color:rgb(251, 255, 0);
 }
 
@@ -176,7 +176,7 @@ span {
 
 
 .list-group-item {
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(0, 0, 0, 0.541);
     color: rgb(255, 251, 0);
     width:80%;
 }
